@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlogSite.Core.IRepositories
 {
-    interface ICommentRepository : IBaseRepository<Comment>
+    public interface ICommentRepository : IBaseRepository<Comment>
     {
     }
 }

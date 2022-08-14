@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlogSite.Core.IRepositories
 {
-    interface ILikeRepository : IBaseRepository<Like>
+    public interface ILikeRepository : IBaseRepository<Like>
     {
     }
 }

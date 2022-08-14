@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlogSite.Core.IRepositories
 {
-    interface IPostRepository : IBaseRepository<Post>
+    public interface IPostRepository : IBaseRepository<Post>
     {
     }
 }

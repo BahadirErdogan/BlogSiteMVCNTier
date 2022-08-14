@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlogSite.Core.IRepositories
 {
-    interface ITopicRepository : IBaseRepository<Topic>
+    public interface ITopicRepository : IBaseRepository<Topic>
     {
     }
 }
